@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.my.newapp.ThirdActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="Your Full Name"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="For Eg:O+"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/phnno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phn Number"
+                android:inputType="phone"
+                android:background="@drawable/edit_bg"
+                android:textColor="#000000"
+                android:textColorHint="#808080"/>
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Male"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:buttonTint="#000000"
+                android:checked="true"/>
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Female"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:buttonTint="#000000"/>
+
+            </RadioGroup>
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="DD/MM/YYYY"
+                android:inputType="date"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="textPostalAddress"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space10"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_bg"
+                android:ems="10"
+                android:hint="State"
+                android:inputType="textPostalAddress"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space11"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="160dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal|center"
+                android:background="#FF6347"
+                android:text="REGISTER"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

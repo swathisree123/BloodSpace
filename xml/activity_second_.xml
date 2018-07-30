@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.my.newapp.Second_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:paddingTop="50dp"
+                android:text=" If you are a blood donar \nYou are HERO to someone"
+                android:textAlignment="center"
+                android:textColor="#FF6347"
+                android:textSize="40sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="160dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal|center"
+                android:background="#FF6347"
+                android:text="BE A SAVER"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Sweat saves blood\nBlood SAVES Life"
+                android:textAlignment="center"
+                android:textColor="#FF6347"
+                android:textSize="40sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="160dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal|center"
+                android:background="#FF6347"
+                android:text="FIND SAVER"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <android.support.v4.widget.Space
+                android:id="@+id/space16"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
